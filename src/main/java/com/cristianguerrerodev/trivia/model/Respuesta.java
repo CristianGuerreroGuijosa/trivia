@@ -43,6 +43,10 @@ public class Respuesta {
         this.correcta = correcta;
     }
 
+    public void setRespuestaCorrectaTrue(){
+        this.correcta = true;
+    }
+
     @Override
     public String toString() {
         return "Respuesta{" +
